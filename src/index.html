@@ -13,9 +13,8 @@
       property="og:description"
       content="디자인 감각과 퍼블리싱 실무 위에 AI의 속도를 더하고, 백엔드 데이터 흐름을 이해해 사용자 친화적 UI를 구현하는 프론트엔드 개발자입니다."
     />
-    <!-- 배포 시 og:url·og:image를 실제 도메인·1200×630 대표 이미지 절대 URL로 교체하세요. -->
-    <meta property="og:url" content="https://example.com/portfolio-placeholder" />
-    <meta property="og:image" content="https://placehold.co/1200x630/121212/A3E635/png?text=UX-Driven+Frontend" />
+    <meta property="og:url" content="https://orionrich1-portfolio.netlify.app/" />
+    <meta property="og:image" content="https://placehold.co/1200x630/101014/7B4DFF/png?text=UX-Driven+Frontend" />
     <meta name="twitter:card" content="summary_large_image" />
     <title>이윤식 | UX-Driven Frontend Developer with Design Edge</title>
     <link rel="icon" type="image/x-icon" href="../favicon.ico" />
@@ -34,10 +33,10 @@
         </a>
         <nav>
           <ul class="flex flex-wrap justify-end gap-x-4 gap-y-2 md:gap-x-6 text-sm md:text-base">
-            <li><a href="#about" class="text-cMain hover:text-white transition-colors">About</a></li>
-            <li><a href="#projects" class="text-cMain hover:text-white transition-colors">Projects</a></li>
-            <li><a href="#skills" class="text-cMain hover:text-white transition-colors">Skills</a></li>
-            <li><a href="#journey" class="text-cMain hover:text-white transition-colors">Journey</a></li>
+            <li><a href="#about" class="text-cMain hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-cMain focus-visible:outline-offset-4 rounded transition-colors">About</a></li>
+            <li><a href="#projects" class="text-cMain hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-cMain focus-visible:outline-offset-4 rounded transition-colors">Projects</a></li>
+            <li><a href="#skills" class="text-cMain hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-cMain focus-visible:outline-offset-4 rounded transition-colors">Skills</a></li>
+            <li><a href="#journey" class="text-cMain hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-cMain focus-visible:outline-offset-4 rounded transition-colors">Journey</a></li>
           </ul>
         </nav>
       </div>
@@ -60,6 +59,9 @@
           draggable="false"
         />
         <div class="z-10 max-w-5xl mx-auto">
+          <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cMainSoft text-cMain text-xs md:text-sm font-bold mb-6">
+            👋 Frontend Developer Portfolio
+          </span>
           <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight font-montserrat text-white">
             UX-Driven Frontend Developer
           </h1>
@@ -77,7 +79,8 @@
 
       <section id="about" class="py-24 scroll-mt-24">
         <div class="container mx-auto text-center px-4">
-          <h2 class="text-3xl font-bold mb-12 text-cMain font-montserrat">About Me</h2>
+          <span class="text-cMain text-xs md:text-sm font-bold tracking-widest uppercase">Profile</span>
+          <h2 class="text-3xl font-bold mt-2 mb-12 text-white font-montserrat">About Me</h2>
           <div class="flex flex-col md:flex-row items-center gap-12 max-w-7xl mx-auto">
             <img class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-lg shrink-0" src="../img/my.png" alt="이윤식 프로필 사진" />
             <div class="text-left space-y-5">
@@ -97,7 +100,8 @@
 
       <section id="projects" class="py-24 bg-gray-900 scroll-mt-24">
         <div class="container mx-auto text-center px-4">
-          <h2 class="text-3xl font-bold mb-12 text-cMain font-montserrat">Projects</h2>
+          <span class="text-cMain text-xs md:text-sm font-bold tracking-widest uppercase">Selected Work</span>
+          <h2 class="text-3xl font-bold mt-2 mb-12 text-white font-montserrat">Projects</h2>
 
           <div class="bg-cBlack p-8 rounded-2xl shadow-2xl max-w-6xl mx-auto flex flex-col lg:flex-row gap-8 items-center">
             <div class="lg:w-1/2">
@@ -108,19 +112,19 @@
               <p class="text-gray-400">AI 학습·커뮤니티를 결합한 웹 서비스 — UI/UX 아키텍처 설계 및 데이터 연동 (기여도 40%)</p>
 
               <div class="space-y-4 pt-2 text-sm md:text-base">
-                <div class="p-4 rounded-2xl bg-gray-900/80 border border-gray-700">
+                <div class="p-4 rounded-2xl bg-cSurface border border-cBorder">
                   <p class="text-cMain font-bold font-montserrat mb-2">UI/UX Focus</p>
                   <p class="text-gray-300 leading-relaxed">
                     디자인 및 퍼블리싱 실무 경험을 살려 전체 화면의 UI 규칙과 컴포넌트 구조를 직접 기획했습니다. <strong class="text-white">Thymeleaf</strong> 템플릿과 순수 JS/CSS를 활용해 팀 내 시각적 일관성을 맞추고, 동적인 사용자 인터페이스를 구현했습니다.
                   </p>
                 </div>
-                <div class="p-4 rounded-2xl bg-gray-900/80 border border-gray-700">
+                <div class="p-4 rounded-2xl bg-cSurface border border-cBorder">
                   <p class="text-cMain font-bold font-montserrat mb-2">AI Collaboration</p>
                   <p class="text-gray-300 leading-relaxed">
                     <strong class="text-white">WebSocket</strong> 기반의 실시간 채팅 UI나 <strong class="text-white">JWT</strong> 인증 흐름 등 복잡한 프론트엔드 로직 작성 시, <strong class="text-white">Cursor</strong>를 활용해 초기 구조(Boilerplate)를 빠르게 생성했습니다. 명확한 컨텍스트(디자인 규칙)를 AI에게 위임하여 개발 시간을 단축하고, 저는 디테일과 화면 렌더링 최적화에 집중했습니다.
                   </p>
                 </div>
-                <div class="p-4 rounded-2xl bg-gray-900/80 border border-gray-700">
+                <div class="p-4 rounded-2xl bg-cSurface border border-cBorder">
                   <p class="text-cMain font-bold font-montserrat mb-2">Backend Understanding</p>
                   <p class="text-gray-300 leading-relaxed">
                     단순히 화면만 그린 것이 아니라 <strong class="text-white">Spring Boot</strong> 기반 API(<strong class="text-white">JPA</strong>, <strong class="text-white">MySQL</strong>)를 직접 설계하고 연동했습니다. 서버에서 데이터가 어떻게 넘어오는지 알기 때문에, 클라이언트 측에서 발생할 수 있는 예외 처리(네트워크 지연, 포맷 오류)를 사전에 차단하는 견고한 로직을 짤 수 있습니다.
@@ -128,7 +132,15 @@
                 </div>
               </div>
 
-              <p class="text-gray-500 text-xs pt-2">기술 스택: JS, HTML/CSS, Thymeleaf, Java, Spring Boot, WebSocket, MySQL</p>
+              <div class="flex flex-wrap gap-2 pt-2">
+                <span class="text-xs font-semibold text-gray-300 bg-gray-800 border border-cBorder rounded-full px-3 py-1">JS</span>
+                <span class="text-xs font-semibold text-gray-300 bg-gray-800 border border-cBorder rounded-full px-3 py-1">HTML/CSS</span>
+                <span class="text-xs font-semibold text-gray-300 bg-gray-800 border border-cBorder rounded-full px-3 py-1">Thymeleaf</span>
+                <span class="text-xs font-semibold text-gray-300 bg-gray-800 border border-cBorder rounded-full px-3 py-1">Java</span>
+                <span class="text-xs font-semibold text-gray-300 bg-gray-800 border border-cBorder rounded-full px-3 py-1">Spring Boot</span>
+                <span class="text-xs font-semibold text-gray-300 bg-gray-800 border border-cBorder rounded-full px-3 py-1">WebSocket</span>
+                <span class="text-xs font-semibold text-gray-300 bg-gray-800 border border-cBorder rounded-full px-3 py-1">MySQL</span>
+              </div>
 
               <div class="flex flex-wrap gap-4 pt-4">
                 <a href="https://github.com/orionrich1/codemoa" target="_blank" rel="noopener noreferrer" class="bg-gray-700 text-white font-bold py-2 px-6 rounded-full hover:bg-gray-600 transition-colors">GitHub Repository</a>
@@ -163,19 +175,19 @@
               <p class="text-gray-400">학습 습관 앱을 위한 재사용 가능한 컴포넌트 디자인 시스템 — 토큰 설계부터 컴포넌트 라이브러리 구축까지 직접 진행 (개인 프로젝트, 기여도 100%)</p>
 
               <div class="space-y-4 pt-2 text-sm md:text-base">
-                <div class="p-4 rounded-2xl bg-gray-900/80 border border-gray-700">
+                <div class="p-4 rounded-2xl bg-cSurface border border-cBorder">
                   <p class="text-cMain font-bold font-montserrat mb-2">Design Tokens</p>
                   <p class="text-gray-300 leading-relaxed">
                     색상·타이포·간격·반경을 <strong class="text-white">CSS 커스텀 프로퍼티</strong>로 토큰화해서, 하나의 값만 바꿔도 전체 화면과 라이트·다크 테마가 함께 갱신되는 구조를 설계했습니다.
                   </p>
                 </div>
-                <div class="p-4 rounded-2xl bg-gray-900/80 border border-gray-700">
+                <div class="p-4 rounded-2xl bg-cSurface border border-cBorder">
                   <p class="text-cMain font-bold font-montserrat mb-2">Component Library</p>
                   <p class="text-gray-300 leading-relaxed">
                     버튼·카드·폼·모달·드롭다운·캘린더 등 <strong class="text-white">30개 이상의 컴포넌트</strong>를 프레임워크 없이 순수 HTML/CSS/JS로 구현하고, 그 컴포넌트만으로 실제 화면 2종을 조립해 재사용성을 검증했습니다.
                   </p>
                 </div>
-                <div class="p-4 rounded-2xl bg-gray-900/80 border border-gray-700">
+                <div class="p-4 rounded-2xl bg-cSurface border border-cBorder">
                   <p class="text-cMain font-bold font-montserrat mb-2">AI Collaboration</p>
                   <p class="text-gray-300 leading-relaxed">
                     <strong class="text-white">Claude</strong>와 함께 반복되는 UI 패턴을 컴포넌트 단위로 추상화하고, 접근성(ARIA)·다크모드 대응까지 빠르게 반영하며 설계 의도를 코드로 옮겼습니다.
@@ -183,7 +195,11 @@
                 </div>
               </div>
 
-              <p class="text-gray-500 text-xs pt-2">기술 스택: HTML, CSS(Custom Properties), Vanilla JS</p>
+              <div class="flex flex-wrap gap-2 pt-2">
+                <span class="text-xs font-semibold text-gray-300 bg-gray-800 border border-cBorder rounded-full px-3 py-1">HTML</span>
+                <span class="text-xs font-semibold text-gray-300 bg-gray-800 border border-cBorder rounded-full px-3 py-1">CSS Custom Properties</span>
+                <span class="text-xs font-semibold text-gray-300 bg-gray-800 border border-cBorder rounded-full px-3 py-1">Vanilla JS</span>
+              </div>
 
               <div class="flex flex-wrap gap-4 pt-4">
                 <a href="https://github.com/orionrich1/design-system-showcase" target="_blank" rel="noopener noreferrer" class="bg-gray-700 text-white font-bold py-2 px-6 rounded-full hover:bg-gray-600 transition-colors">GitHub Repository</a>
@@ -196,7 +212,10 @@
 
       <section id="skills" class="py-24 scroll-mt-24">
         <div class="container mx-auto px-4">
-          <h2 class="text-3xl font-bold mb-12 text-cMain font-montserrat text-center">Skills</h2>
+          <div class="text-center">
+            <span class="text-cMain text-xs md:text-sm font-bold tracking-widest uppercase">Toolkit</span>
+            <h2 class="text-3xl font-bold mt-2 mb-12 text-white font-montserrat">Skills</h2>
+          </div>
 
           <div class="max-w-7xl mx-auto rounded-xl ring-2 ring-cMain/25 p-4 md:p-6 bg-gray-900/30">
             <h3 class="text-2xl font-bold mb-2 text-white font-montserrat text-left">
@@ -305,7 +324,10 @@
 
       <section id="journey" class="py-24 scroll-mt-24">
         <div class="container mx-auto px-4">
-          <h2 class="text-3xl font-bold mb-12 text-cMain font-montserrat text-center">My Journey</h2>
+          <div class="text-center">
+            <span class="text-cMain text-xs md:text-sm font-bold tracking-widest uppercase">Timeline</span>
+            <h2 class="text-3xl font-bold mt-2 mb-12 text-white font-montserrat">My Journey</h2>
+          </div>
           <div class="border-t-2 border-gray-800 max-w-5xl mx-auto">
             <div class="border-b-2 border-gray-800 p-8">
               <h3 class="text-3xl md:text-4xl text-left text-white font-montserrat">Web Publisher <span class="text-cMain text-xl md:text-2xl">(실무)</span></h3>
