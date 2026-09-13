@@ -7,12 +7,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        cBlack: "#121212",
-        cMain: "#A3E635",
+        cBlack: "#101014",
+        cMain: "#7B4DFF",
+        cMainSoft: "rgba(123, 77, 255, 0.16)",
+        cSurface: "#1A1A20",
+        cBorder: "#2B2B33",
       },
       fontFamily: {
-        montserrat: ["Montserrat", "sans-serif"],
-        noto: ["Noto Sans KR", "sans-serif"],
+        montserrat: ["Pretendard", "sans-serif"],
+        noto: ["Pretendard", "sans-serif"],
+      },
+      borderRadius: {
+        xl2: "1.25rem",
       },
     },
   },
