@@ -1,3 +1,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ==========================================================================
+   Light theme override — toggled via html[data-theme="light"]
+   Default (no attribute) stays the original dark design.
+   ========================================================================== */
+
+html[data-theme="light"] body.bg-cBlack,
+html[data-theme="light"] header.bg-cBlack {
+  background-color: #f3f3f6 !important;
+}
+
+html[data-theme="light"] #projects .bg-cBlack {
+  background-color: #ffffff !important;
+  border: 1px solid #e7e7ec;
+}
+
+html[data-theme="light"] .bg-gray-900,
+html[data-theme="light"] .bg-gray-900\/30 {
+  background-color: #f7f7f9 !important;
+}
+
+html[data-theme="light"] .bg-gray-800 {
+  background-color: #ffffff !important;
+  border-color: #e7e7ec !important;
+}
+
+html[data-theme="light"] .bg-cSurface {
+  background-color: #ffffff !important;
+}
+
+html[data-theme="light"] .border-cBorder,
+html[data-theme="light"] .border-gray-700,
+html[data-theme="light"] .border-gray-700\/50,
+html[data-theme="light"] .border-gray-800 {
+  border-color: #e7e7ec !important;
+}
+
+html[data-theme="light"] .text-white {
+  color: #131316 !important;
+}
+
+html[data-theme="light"] .text-gray-300 {
+  color: #3f3f46 !important;
+}
+
+html[data-theme="light"] .text-gray-400 {
+  color: #6f6f78 !important;
+}
+
+html[data-theme="light"] .text-gray-500 {
+  color: #86868f !important;
+}
+
+html[data-theme="light"] header nav a.hover\:text-white:hover {
+  color: #131316 !important;
+}
+
+html[data-theme="light"] img[src*="sh01"],
+html[data-theme="light"] img[src*="sh02"] {
+  opacity: 0.35;
+}
+
+html[data-theme="light"] header img[src*="yslogo"] {
+  filter: brightness(0);
+}
