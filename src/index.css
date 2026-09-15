@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Default icon state for the theme toggle (kept out of inline SVG style so
+   Parcel's production SVGO pass doesn't treat the icon as dead/hidden markup
+   and strip the whole element). JS flips this via element.style.display. */
+.theme-icon-sun {
+  display: none;
+}
+
 /* ==========================================================================
    Light theme override — toggled via html[data-theme="light"]
    Default (no attribute) stays the original dark design.
